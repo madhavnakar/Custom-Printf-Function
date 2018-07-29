@@ -6,7 +6,7 @@
 /*   By: mnakar <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/22 21:13:57 by mnakar            #+#    #+#             */
-/*   Updated: 2018/07/28 10:15:56 by mnakar           ###   ########.fr       */
+/*   Updated: 2018/07/28 18:29:41 by mnakar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	printformat_p(t_info info, long long n, int bits, int *spaces)
 		sp = info.zero - ((len > info.prec) ? len : info.prec) -
 			(ISHASH(info) ? 2 : 0);
 	*spaces = sp;
-	while (!(ISNEG(info) && sp-- > 0))
+	while ((!(ISNEG(info)) && sp-- > 0))
 		ft_putchar(ISZERO(info) ? '0' : ' ');
 	while (len++ < info.prec)
 		ft_putchar('0');
