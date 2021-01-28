@@ -8,4 +8,4 @@ and need bit manipulation. For example, prinf("%s", "hello") will print "hello" 
 details that would take some explanation) made the project challenging.
 
 By completing this project I learned about how to manage all of the helper functions in a large project. Rules such as having no more than 42 lines in a C file forced
-me to be more efficient and readable.
+me to be more efficient and make the source code readable.
