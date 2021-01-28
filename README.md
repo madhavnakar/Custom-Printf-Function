@@ -5,7 +5,7 @@ The only allowed function was the system call "write()". I used my own library o
 
 This project turned out to be more difficult than I thought when I signed up to do it. There are some nuances to the printf function that are difficult to incorporate 
 and need bit manipulation. For example, prinf("%s", "hello") will print "hello" but printf("%.3s", "hello") will print "hel" . Incoporating such nuances (and other
-details that would take some explanation) make the project challenging.
+details that would take some explanation) made the project challenging.
 
 By completing this project I learned about how to manage all of the helper functions in a large project. Rules such as having no more than 42 lines in a C file forced
 me to be more efficient and readable.
